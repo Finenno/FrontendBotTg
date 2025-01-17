@@ -27,7 +27,7 @@ const getCorrectAnswer = (topic, id) => {
         return question.answer;
     }
 
-    return question.options.find((option) => option.isCorreact).text;
+    return question.options.find((option) => option.isCorrect).text;
 }
 
 module.exports = { getRandomQuestion, getCorrectAnswer }
