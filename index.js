@@ -83,5 +83,5 @@ bot.catch((err) => {
     }
 });
 
-
+console.log("test");
 bot.start();
